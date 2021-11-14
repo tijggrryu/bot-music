@@ -21,7 +21,7 @@ module.exports = {
   
   Presence: {
     status: "dnd", // You can show online, idle, and dnd
-    name: "I don't want to follow orders. I'm bored.", // The message shown
+    name: "Setup by ȥαƈ#0249", // The message shown
     type: "STREAMING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
