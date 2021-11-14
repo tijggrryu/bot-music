@@ -1,7 +1,7 @@
 module.exports = {
   Admins: ["675507024930537473"], //Admins of the bot
   ExpressServer: false, //If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || "!b", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: process.env.Prefix || "", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://bit.ly/ZacDiscord", //Support Server Link
   Token: process.env.Token || "",//Discord Bot Token
@@ -21,7 +21,7 @@ module.exports = {
   
   Presence: {
     status: "dnd", // You can show online, idle, and dnd
-    name: "Setup by ȥαƈ#0249", // The message shown
+    name: "I don't want to follow orders. I'm bored.", // The message shown
     type: "STREAMING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
